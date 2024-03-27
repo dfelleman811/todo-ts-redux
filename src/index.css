@@ -11,3 +11,133 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.main {
+    background-color: rgb(131, 86, 255);
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div.main h2 {
+    padding: 1rem 2rem;
+}
+
+div.controls  {
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 5px;;
+}
+div.controls button {
+    margin: .75rem;
+    padding: .5rem;
+    box-shadow: 5px 5px rgba(0 0 0 / .5);
+}
+
+div.controls button:hover {
+    color: orange;
+}
+
+div.main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: hsl(221, 100%, 25%);
+    color: rgb(242, 223, 255);
+    border-radius: 8px;
+    padding: 1rem;
+    min-height: inherit;
+}
+
+div.todo h4, p {
+    margin: 0;
+    padding: .5rem;
+}
+
+div.todo h4 {
+    font-size: larger;
+}
+div.todo p {
+    font-size: small;
+}
+
+div.todo button {
+    background: none;
+    color:aliceblue;
+    border: none;
+    padding: .25rem;  
+    align-self: flex-end;
+}
+
+div.todo button:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+.app-title {
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: rgb(113, 60, 163);
+    box-shadow: 5px 5px 1rem rgb(37, 6, 78)
+}
+
+form.new-todo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+form.new-todo button, label, input {
+    margin: 1rem;
+}
+
+#addToDoToggle {
+    margin: .75rem;
+}
+
+div#title-input {
+    align-self: flex-start;
+}
+
+div#new-todo-buttons {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+div#loginForm {
+    display:flex;
+    justify-content: center;
+    margin: 8rem 10rem;
+    background-color: cadetblue;
+}
+
+form#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+    color: aliceblue;
+}
+form#login div {
+    padding: .5rem;
+}
+
+form#login label {
+    margin: 0;
+}
+
+form#login button {
+    padding: .25rem .75rem;
+}

@@ -1,0 +1,15 @@
+PK,SK,Title,Description,isComplete,UserDetails
+USER#101,USER#101,,,,{}
+USER#102,USER#102,,,,{}
+USER#103,USER#103,,,,{}
+TODO#101,USER#101,Empty Dishwasher,Remember to flip magnet,false,
+TODO#102,USER#101,Clean Bathroom,It's my turn,false
+TODO#103,USER#101,Pay Bills,Medical,true
+TODO#104,USER#102,Buy Groceris,Butter Eggs,false
+TODO#105,USER#102,Plant Care,Repotting,false
+TODO#106,USER#102,Walk Dogs,at 3pm,false
+TODO#107,USER#102,Make Coffee,cafffffffeine,true
+TODO#108,USER#102,Take trash to Dump,brrr,true
+TODO#109,USER#103,Put in PTO Requests,vacations all i ever wanted,true
+TODO#110,USER#103,Get lunch,what do I want to eat?,false
+TODO#111,USER#103,Drill Hole into Desk,for the wires,false

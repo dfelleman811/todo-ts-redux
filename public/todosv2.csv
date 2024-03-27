@@ -1,0 +1,15 @@
+PK,SK,Title,Description,isComplete,UserDetails
+USER#101,USER#smithson,,,,{}
+USER#102,USER#taskmaster,,,,{}
+USER#103,USER#lazylou,,,,{}
+TODO#101,USER#smithson,Empty Dishwasher,Remember to flip magnet,false,
+TODO#102,USER#smithson,Clean Bathroom,It's my turn,false
+TODO#103,USER#smithson,Pay Bills,Medical,true
+TODO#104,USER#taskmaster,Buy Groceris,Butter Eggs,false
+TODO#105,USER#taskmaster,Plant Care,Repotting,false
+TODO#106,USER#taskmaster,Walk Dogs,at 3pm,false
+TODO#107,USER#taskmaster,Make Coffee,cafffffffeine,true
+TODO#108,USER#taskmaster,Take trash to Dump,brrr,true
+TODO#109,USER#lazylou,Put in PTO Requests,vacations all i ever wanted,true
+TODO#110,USER#lazylou,Get lunch,what do I want to eat?,false
+TODO#111,USER#lazylou,Drill Hole into Desk,for the wires,false
