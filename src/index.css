@@ -1,3 +1,6 @@
+html {
+    background: linear-gradient(white, #87ceeb);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -13,17 +17,19 @@ code {
 }
 
 div.main {
-    background-color: rgb(131, 86, 255);
+    border: 1px solid black;
     border-radius: 20px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-items: center;
+    box-shadow: 5px 2.5px 2.5px rgba(0, 0, 0, .25);
+    max-width: 50%;
 }
 
-div.main h2 {
-    padding: 1rem 2rem;
+div.main h2{
+
 }
 
 div.controls  {
@@ -34,7 +40,7 @@ div.controls  {
 div.controls button {
     margin: .75rem;
     padding: .5rem;
-    box-shadow: 5px 5px rgba(0 0 0 / .5);
+    box-shadow: 3px 3px rgba(0 0 0 / .25);
 }
 
 div.controls button:hover {
@@ -54,8 +60,8 @@ div.todo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: hsl(221, 100%, 25%);
-    color: rgb(242, 223, 255);
+    background-color: hsl(330, 51%, 35%);
+    color: rgb(255, 255, 255);
     border-radius: 8px;
     padding: 1rem;
     min-height: inherit;
@@ -87,19 +93,29 @@ div.todo button:hover {
 }
 
 .app-title {
-    padding: .5rem;
     background-color: rgba(255, 255, 255, 0.74);
-    color: rgb(113, 60, 163);
-    box-shadow: 5px 5px 1rem rgb(37, 6, 78)
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 1rem rgb(37, 6, 78,.25);
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    background-color: hsl(221, 100%, 91%);
 }
 
 form.new-todo {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid gray
 }
 form.new-todo button, label, input {
     margin: 1rem;
+}
+
+div.new-todo-buttons {
+    margin-top: .25rem;
 }
 
 #addToDoToggle {
@@ -120,6 +136,8 @@ div#loginForm {
     justify-content: center;
     margin: 8rem 10rem;
     background-color: cadetblue;
+    border-radius: 6px;
+    max-width: 50%;
 }
 
 form#login {

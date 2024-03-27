@@ -59,7 +59,7 @@ const ToDoPage = () => {
     }
     return (
         <div className="container-lg main">
-            <Heading size={2} text="Your ToDo List" className="app-title" />
+            <Heading size={3} text="Your ToDo List" className="app-title" />
             <NewToDo />
             <ToDoControls
                 showCategory={showCategory}
